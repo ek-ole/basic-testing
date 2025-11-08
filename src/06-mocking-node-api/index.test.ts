@@ -92,6 +92,5 @@ describe('readFileAsynchronously', () => {
     const result = await readFileAsynchronously('test.txt');
 
     expect(result).toBe('test content');
-    jest.resetModules();
   });
 });
